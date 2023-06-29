@@ -1,0 +1,25 @@
+{
+  "name": "vue2-vite",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "@inkline/inkline": "^2.3.6",
+    "@paralleldrive/cuid2": "^2.2.1",
+    "boxicons": "^2.1.4",
+    "localbase": "^0.7.5",
+    "ordered-uuid": "^1.1.0",
+    "vue": "^2.7.14",
+    "vue-router": "^3.6.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue2": "^1.1.2",
+    "unplugin-vue-components": "^0.24.1",
+    "vite": "^4.3.9",
+    "vite-plugin-pwa": "^0.16.4",
+    "workbox-precaching": "^7.0.0"
+  }
+}
