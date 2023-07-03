@@ -10,8 +10,7 @@
     "@inkline/inkline": "^2.3.6",
     "@paralleldrive/cuid2": "^2.2.1",
     "boxicons": "^2.1.4",
-    "localbase": "^0.7.5",
-    "ordered-uuid": "^1.1.0",
+    "mis-datos": "^0.1.1",
     "vue": "^2.7.14",
     "vue-router": "^3.6.5"
   },

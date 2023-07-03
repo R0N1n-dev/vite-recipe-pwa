@@ -2084,15 +2084,7 @@ local-pkg@^0.4.3:
   resolved "https://registry.npmjs.org/local-pkg/-/local-pkg-0.4.3.tgz"
   integrity sha512-SFppqq5p42fe2qcZQqqEOiVRXl+WCP1MdT6k7BDEW1j++sp5fIY+/fdRQitvKgB5BrBcmrs5m/L0v2FrU5MY1g==
 
-localbase@^0.7.5:
-  version "0.7.5"
-  resolved "https://registry.npmjs.org/localbase/-/localbase-0.7.5.tgz"
-  integrity sha512-LikkGiX/HdR0kZUUmoBjPMD5qyLBbO5SfQOPkZVXea3QwQTZBy5JxbRiEC1xy9tagFCfi90OP+23/V6Da/7DbQ==
-  dependencies:
-    localforage "^1.7.4"
-    ordered-uuid "^1.1.0"
-
-localforage@^1.7.4:
+localforage@^1.10.0:
   version "1.10.0"
   resolved "https://registry.npmjs.org/localforage/-/localforage-1.10.0.tgz"
   integrity sha512-14/H1aX7hzBBmmh7sGPd+AOMkkIrHM3Z1PAyGgZigA1H1p5O5ANnMyWzvpAETtG68/dC4pC0ncy3+PPGzXZHPg==
@@ -2195,6 +2187,14 @@ minimatch@^7.4.2:
   dependencies:
     brace-expansion "^2.0.1"
 
+mis-datos@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.npmjs.org/mis-datos/-/mis-datos-0.1.1.tgz"
+  integrity sha512-Q9aYtcQ1SDAJqpr1EM2Tit4Ao4rZ5wYg216KvrGeYYypvCEYGGUN6YyU5vJoUvri1V3a2dxiZXEjNjvNOl9X5w==
+  dependencies:
+    localforage "^1.10.0"
+    ordered-uuid-v4 "^0.2.1"
+
 ms@2.1.2:
   version "2.1.2"
   resolved "https://registry.npmjs.org/ms/-/ms-2.1.2.tgz"
@@ -2247,12 +2247,12 @@ once@^1.3.0:
   dependencies:
     wrappy "1"
 
-ordered-uuid@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.npmjs.org/ordered-uuid/-/ordered-uuid-1.1.0.tgz"
-  integrity sha512-pcbQ+w/1DIOFYsZRsjkNgxWRvLecCjpbVadcP9SQ/9oHSQr7VXS9+t5/FiPkqFvQGn3a4Hj0YL7R8q7cIgGXBA==
+ordered-uuid-v4@^0.2.1:
+  version "0.2.1"
+  resolved "https://registry.npmjs.org/ordered-uuid-v4/-/ordered-uuid-v4-0.2.1.tgz"
+  integrity sha512-bqduG54mrqhA14Hb8+LFCTKL5bzzoGbA2kThKXY9y/VSWq2LKEjzkTLW+v8B5wYV4WiwI6XcfAobxO4XJ8w1hA==
   dependencies:
-    uuid "^3.0.1"
+    performance-now "^2.1.0"
 
 path-is-absolute@^1.0.0:
   version "1.0.1"
@@ -2270,6 +2270,11 @@ path-to-regexp@^1.7.0:
   integrity sha512-n43JRhlUKUAlibEJhPeir1ncUID16QnEjNpwzNdO3Lm4ywrBpBZ5oLD0I6br9evr1Y9JTqwRtAh7JLoOzAQdVA==
   dependencies:
     isarray "0.0.1"
+
+performance-now@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.npmjs.org/performance-now/-/performance-now-2.1.0.tgz"
+  integrity sha512-7EAHlyLHI56VEIdK57uwHdHKIaAGbnXPiw0yWbarQZOKaKpvUIgW0jWRVLiatnM+XXlSwsanIBH/hzGMJulMow==
 
 picocolors@^1.0.0:
   version "1.0.0"
@@ -2810,11 +2815,6 @@ uri-js@^4.2.2:
   integrity sha512-7rKUyy33Q1yc98pQ1DAmLtwX109F7TIfWlW1Ydo8Wl1ii1SeHieeh0HHfPeL2fMXK6z0s8ecKs9frCuLJvndBg==
   dependencies:
     punycode "^2.1.0"
-
-uuid@^3.0.1:
-  version "3.4.0"
-  resolved "https://registry.npmjs.org/uuid/-/uuid-3.4.0.tgz"
-  integrity sha512-HjSDRw6gZE5JMggctHBcjVak08+KEVhSIiDzFnT9S9aegmp85S/bReBVTb4QTFaRNptJ9kuYaNhnbNEOkbKb/A==
 
 value-equal@^1.0.1:
   version "1.0.1"

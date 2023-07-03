@@ -84,6 +84,9 @@ export default {
         //recipes: [],
     }),
     methods: {
+        gen() {
+            console.log(cuid());
+        },
         addIn() {
             if (this.inMeasure !== "") {
                 this.ingredients.push(this.inMeasure);
